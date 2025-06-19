@@ -1,27 +1,8 @@
-"use client";
-
 import Image from "next/image";
 
 export default function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white dark:from-gray-900 dark:to-gray-800">
-      <style jsx global>{`
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap');
-        
-        * {
-          font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
-        }
-        h1, h2, h3, h4, h5, h6 {
-          font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
-          font-weight: 600;
-        }
-        .hero-title {
-          font-family: 'Poppins', sans-serif;
-          font-weight: 700;
-          letter-spacing: -0.02em;
-        }
-      `}</style>
-
       {/* Header/Hero Section */}
       <header className="bg-gradient-to-r from-blue-700 via-blue-600 to-indigo-700 text-white">
         <div className="container mx-auto px-4 py-20 text-center relative overflow-hidden">
